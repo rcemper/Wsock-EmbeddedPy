@@ -1,14 +1,21 @@
-version: '3.6'
+version: '3.7'
 services:
+  echodocker:
+    image: jmalloc/echo-server
+    restart: always
+    ports: 
+      - 10000:8080
+
   iris:
     build: 
       context: .
       dockerfile: Dockerfile
-    command: --check-caps false --ISCAgent false
     restart: always
     ports:
-      - '41773:1972'
-      - '42773:52773'
+      - 1972
+      - 52773
       - 53773
     volumes:
-      - ./:/rcc
+      - ./:/irisdev/app
+    environment:
+      - PYTHONHOME=/usr

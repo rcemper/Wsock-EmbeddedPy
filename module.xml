@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="run-container-command-execution.ZPM">
+  <Document name="wsock-embedded-py.ZPM">
     <Module>
-      <Name>run-container-command-execution</Name>
-	  <Description>Run Command in Container</Description> 
-      <Version>0.0.1</Version>
+      <Name>wsock-embedded-py</Name>
+      <Version>0.1.1</Version>
+      <Description>Demo using a WebSocket Client written in Python used over embedded Python</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="zrccx.MAC"/>
+      <Resource Name="rccpy.WSockPy.CLS"/>
+      <FileCopy Name="py/" Target="${mgrdir}python/"/>
     </Module>
   </Document>
 </Export>
