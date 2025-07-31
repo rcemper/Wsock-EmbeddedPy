@@ -115,10 +115,7 @@ __%SYS.Python.html__ is a preliminary class docu to see available functions
 __run time__: 
 If the standard Python module is not yet installed this is the first action and happens only once.  
  
-[Article in DC](https://community.intersystems.com/post/websocket-client-embedded-python)
-
-[Demo Server SMP](https://wsock-embedded-py.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://wsock-embedded-py.demo.community.intersystems.com/terminal/)    
+[Article in DC](https://community.intersystems.com/post/websocket-client-embedded-python)   
         
 **Code Quality**   
 <img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1779/screenshots/3m9lbquzzpufsbjhtp3sw9up6pe.jpg">
